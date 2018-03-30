@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "324000272817",
+    "firebase_url": "https://test-sound-gen.firebaseio.com",
+    "project_id": "test-sound-gen",
+    "storage_bucket": "test-sound-gen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324000272817:android:4a8f7acd6db8fc8d",
+        "android_client_info": {
+          "package_name": "com.reverone.kawahara.testsoundgen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324000272817-jcjl2tup6ghv7pe2bv7nhn27e2g6qdnh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYsuyYAf0st3sZR5gowXovKPwwIEC3Q5c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324000272817:android:7627acd977d80b80",
+        "android_client_info": {
+          "package_name": "biz.riverone.shohinge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324000272817-jcjl2tup6ghv7pe2bv7nhn27e2g6qdnh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYsuyYAf0st3sZR5gowXovKPwwIEC3Q5c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSizeTitle">18sp</dimen>
+
+    <dimen name="textSizeFuri">18sp</dimen>
+    <dimen name="textSizeCurrent">36sp</dimen>
+    <dimen name="textSizeCurrentMiddle">28sp</dimen>
+
+    <dimen name="textSizeNextFuri">18sp</dimen>
+    <dimen name="textSizeNext">24sp</dimen>
+</resources>

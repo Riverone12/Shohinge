@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackground"
+    tools:context="biz.riverone.shohinge.MainActivity">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:background="#333"
+        android:textColor="@color/textColorSilver"
+        android:textSize="@dimen/textSizeTitle"
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                android:id="@+id/textViewFuri0"
+                android:textColor="@color/textColorSilver"
+                android:gravity="center"
+                android:textSize="@dimen/textSizeFuri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/textViewText0"
+                android:textColor="@color/textColorGold"
+                android:gravity="center"
+                android:textSize="@dimen/textSizeCurrent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                android:id="@+id/textViewFuri1"
+                android:textColor="@color/textColorSilver"
+                android:gravity="center"
+                android:textSize="@dimen/textSizeFuri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/textViewText1"
+                android:textColor="@color/textColorGold"
+                android:gravity="center"
+                android:textSize="@dimen/textSizeCurrent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                android:id="@+id/textViewFuri2"
+                android:textColor="@color/textColorSilver"
+                android:gravity="center"
+                android:textSize="@dimen/textSizeFuri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/textViewText2"
+                android:textColor="@color/textColorGold"
+                android:gravity="center"
+                android:textSize="@dimen/textSizeCurrent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                android:id="@+id/textViewFuri3"
+                android:textColor="@color/textColorSilver"
+                android:gravity="center"
+                android:textSize="@dimen/textSizeFuri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/textViewText3"
+                android:textColor="@color/textColorGold"
+                android:gravity="center"
+                android:textSize="@dimen/textSizeCurrent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!---->
+    <TextView
+        android:id="@+id/textViewCurrentPosition"
+        android:textSize="24sp"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <!---->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <Button
+            android:id="@+id/buttonPlay"
+            android:drawableTop="@drawable/ic_action_play"
+            android:text="@string/caption_button_play"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonStop"
+            android:drawableTop="@drawable/ic_action_stop"
+            android:text="@string/caption_button_stop"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:background="#666"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id">
+        </com.google.android.gms.ads.AdView>
+    </FrameLayout>
+</LinearLayout>

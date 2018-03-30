@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">練習！正信偈(真宗大谷派)</string>
+
+    <!---->
+    <string name="banner_ad_unit_id">ca-app-pub-1882812461462801/1938721728</string>
+    <!---->
+    <!-- Test
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    -->
+
+    <string name="caption_button_play">再生</string>
+    <string name="caption_button_pause">一時停止</string>
+    <string name="caption_button_stop">停止</string>
+
+    <!-- メニュー -->
+    <string name="menu_title_memo">正信念仏偈 意訳</string>
+
+    <!-- 意訳 -->
+    <string name="menu_title_close">閉じる</string>
+</resources>
